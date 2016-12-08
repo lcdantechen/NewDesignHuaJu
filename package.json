@@ -1,0 +1,31 @@
+{
+  "name": "ChenLiu",
+  "version": "1.0.0",
+  "description": "Chen's Portfolio Site.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lcdantechen/Portfolio"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lcdantechen/Portfolio/issues"
+  },
+  "homepage": "https://github.com/lcdantechen/Portfolio#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "dotenv": "^2.0.0",
+    "express-handlebars": "^3.0.0",
+    "express3-handlebars": "^0.5.2",
+    "method-override": "^2.3.6",
+    "sendmail": "^0.2.2",
+    "sendgrid": "^4.0.1",
+    "stripe": "^4.9.0"
+  },
+  "devDependencies": {}
+}
