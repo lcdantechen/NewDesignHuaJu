@@ -297,7 +297,7 @@ img {
         margin: inherit;
         text-align: left;
         padding-left: 0;
-        margin-left: 0;
+        margin-left: 15px;
     }
 }
 
@@ -684,13 +684,13 @@ a.menuLinks {
 .column {
     float: left;
 }
-@media screen and (max-width: 480px) {
+/*@media screen and (max-width: 480px) {
     .column {
-        float: none;
+        float: left;
         position: relative;
         clear: both;
     }
-}
+}*/
 .size-1of4 {
     width: 25%;
 }
@@ -709,7 +709,7 @@ a.menuLinks {
 /* Configurate salvattore with media queries */
 @media screen and (max-width: 450px) {
     #board[data-columns]::before {
-        content: '1 .column';
+        content: '2 .column.size-1of2';
     }
 }
 
@@ -748,3 +748,26 @@ a.menuLinks {
 /*search area*/
 
     /*search area end*/
+
+    .navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #5bc0de;
+}
+
+.navbar-toggle {
+    background-color: #b2edff;
+}
+
+
+.container>.navbar-collapse {
+ margin-top:40px;
+}
+
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #50b2ff;
+}
+
