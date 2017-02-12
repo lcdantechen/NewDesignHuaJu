@@ -1,4 +1,2 @@
-# Portfolio
+# PinBoardDesign
 
-This is Chen's Portfolio site. 
-# NewDesignHuaJu
