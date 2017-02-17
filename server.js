@@ -15,8 +15,8 @@ var flash = require('connect-flash');
 var validator = require('express-validator');
 var MongoStore = require('connect-mongo')(session);*/
 
-var routes = require('./controllers/routes/index');
-var userRoutes = require('./controllers/routes/user');
+/*var routes = require('./controllers/routes/index');
+var userRoutes = require('./controllers/routes/user');*/
 
 
 //Server config properties
