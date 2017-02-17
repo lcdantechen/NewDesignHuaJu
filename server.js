@@ -4,7 +4,7 @@ var express = require('express');
 var bodyParser = require('body-parser');
 var path = require('path');
 /*____________________*/
-var exphbs = require('express-handlebars');
+/*var exphbs = require('express-handlebars');
 var methodOverride = require('method-override');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
@@ -13,7 +13,7 @@ var session = require('express-session');
 var passport = require('passport');
 var flash = require('connect-flash');
 var validator = require('express-validator');
-var MongoStore = require('connect-mongo')(session);
+var MongoStore = require('connect-mongo')(session);*/
 
 var routes = require('./controllers/routes/index');
 var userRoutes = require('./controllers/routes/user');
